@@ -51,9 +51,6 @@ At no point is the full key stored or exposed in one place.
    ```bash
    python main.py
 
-
-
-
 # Future Improvements
 Build a web interface for visualization and usage
 
