@@ -33,18 +33,6 @@ At no point is the full key stored or exposed in one place.
 - JSON for configuration and communication
 - Command-line interface for testing and demonstration
 
-## Folder Structure
-
-KeySplit/
-├── main.py
-├── sss.py
-├── config.json
-├── utils/
-│ └── crypto_helpers.py
-├── README.md
-└── requirements.txt
-
-
 
 ## Getting Started
 
