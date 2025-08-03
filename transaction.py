@@ -162,9 +162,10 @@ if __name__ == '__main__':
         print(f'\nReconstructed key: {rec}')
         assert rec == tx_key
         log_transaction(user_id, "Reconstruct Key", "Success")
-        print('✅ Key reconstruction successful')
+        print('Key reconstruction successful')
 
         secure_wipe(rec)
 secure_wipe(tx_key)
 for s in shares:
     secure_wipe(s)
+
